@@ -48,7 +48,7 @@ const DoctorSchedule = () => {
       }));
       const formattedDate = selectedDate.toLocaleDateString('en-GB');
       axios
-        .post('http://localhost:5000/createSchedule', {
+        .post('http://localhost:3002/createSchedule', {
           name,
           email,
           date: formattedDate,

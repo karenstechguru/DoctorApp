@@ -75,7 +75,7 @@ const Contact = () => {
 export default Contact;
 {
   /* <iframe className='m-5'
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15079.453885723136!2d72.8362692128424!3d19.113644500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d4ea2a2311%3A0x68124744f0f8d09!2sImarticus%20Learning%20Mumbai%20-%20Data%20Science%20%26%20Analytics%2C%20Investment%20Banking%20Course%20In%20Mumbai!5e0!3m2!1sen!2sin!4v1714210376714!5m2!1sen!2sin"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15079.453885723136!2d72.8362692128424!3d19.113644300200003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d4ea2a2311%3A0x68124744f0f8d09!2sImarticus%20Learning%20Mumbai%20-%20Data%20Science%20%26%20Analytics%2C%20Investment%20Banking%20Course%20In%20Mumbai!5e0!3m2!1sen!2sin!4v1714210376714!5m2!1sen!2sin"
 width="725"
 height="250"
 allowfullscreen=""

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import About from "../../public/About.json";
+import About from "../../src/About.json";
 import AboutCard from "./AboutCard";
 import { GrPrevious } from "react-icons/gr";
 import { GrNext } from "react-icons/gr";

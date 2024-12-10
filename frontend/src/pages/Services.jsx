@@ -14,7 +14,7 @@ const Services = () => {
   const nav = useNavigate();
 
   const getData = () => {
-    axios.get("http://localhost:5000/docDetails")
+    axios.get("http://localhost:3002/docDetails")
       .then((res) => {
         let data = res.data;
         let filteredData = data.filter((temp) => temp.verified === true);

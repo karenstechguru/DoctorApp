@@ -15,14 +15,14 @@ const PrescriptionDisplayCard = () => {
   useEffect(() => {
     if (token) {
       axios
-        .get(`http://localhost:5000/pres/getPrescription/${email}`)
+        .get(`http://localhost:3002/pres/getPrescription/${email}`)
         .then((res) => {
           setData(res.data);
         })
         .catch((e) => console.log(e));
     } else {
       axios
-        .get(`http://localhost:5000/pres/getDocPrescription/${email}`)
+        .get(`http://localhost:3002/pres/getDocPrescription/${email}`)
         .then((res) => {
           setData(res.data);
         })

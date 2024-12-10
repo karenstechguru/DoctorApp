@@ -23,7 +23,7 @@ const Navbar = () => {
     if (docToken !== undefined) {
       const email = Cookies.get('email');
       axios
-        .get(`http://localhost:5000/getDocData/${email}`)
+        .get(`http://localhost:3002/getDocData/${email}`)
         .then((res) => {
           setVerified(res.data.verified);
         })

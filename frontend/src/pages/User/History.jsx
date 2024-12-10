@@ -32,7 +32,7 @@ const HistoryPage=()=>
       
     const getData=()=>
     {
-        axios.get(`http://localhost:5000/Booking/getBooking/${email}`)
+        axios.get(`http://localhost:3002/Booking/getBooking/${email}`)
         .then((res) => {
           const sortedData = res.data.sort((a, b) => {
             // Extract date parts
@@ -81,7 +81,7 @@ const HistoryPage=()=>
           {
             try
             {
-               axios.patch("http://localhost:5000/Booking/updateBooking",{_id:item._id})
+               axios.patch("http://localhost:3002/Booking/updateBooking",{_id:item._id})
                .then((res)=>{
                 console.log(res);
                })
